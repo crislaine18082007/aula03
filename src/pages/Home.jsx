@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ListaProdutos from "./ListarProdutos";
+import ListaProdutos from "../components/ListarProdutos";
 
 export default function Home() {
 
@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <h1>Lista de Produtos</h1>
-      <ListaProdutos lista={produtos}/>
+      <ListaProdutos lista={lista}/>
     </>
 );
 }
